@@ -1,0 +1,3330 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20201.20.0326.1623                               -->
+<workbook original-version='18.1' source-build='2020.1.2 (20201.20.0326.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style-theme name='modern' />
+  <datasources>
+    <datasource caption='globalterrorismdb_0718dist' inline='true' name='federated.09dmcbt07pgxvv1e7ea4m0xi3bss' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='globalterrorismdb_0718dist' name='textscan.0m8mbcd0clu0j91gd25050algh34'>
+            <connection class='textscan' directory='E:/Grip Technologies/Task 4' filename='globalterrorismdb_0718dist.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0m8mbcd0clu0j91gd25050algh34' name='globalterrorismdb_0718dist.csv' table='[globalterrorismdb_0718dist#csv]' type='table'>
+          <columns character-set='windows-1252' header='yes' locale='en_IN' separator=','>
+            <column datatype='integer' name='eventid' ordinal='0' />
+            <column datatype='integer' name='iyear' ordinal='1' />
+            <column datatype='integer' name='imonth' ordinal='2' />
+            <column datatype='integer' name='iday' ordinal='3' />
+            <column datatype='string' name='approxdate' ordinal='4' />
+            <column datatype='integer' name='extended' ordinal='5' />
+            <column datatype='date' name='resolution' ordinal='6' />
+            <column datatype='integer' name='country' ordinal='7' />
+            <column datatype='string' name='country_txt' ordinal='8' />
+            <column datatype='integer' name='region' ordinal='9' />
+            <column datatype='string' name='region_txt' ordinal='10' />
+            <column datatype='string' name='provstate' ordinal='11' />
+            <column datatype='string' name='city' ordinal='12' />
+            <column datatype='real' name='latitude' ordinal='13' />
+            <column datatype='real' name='longitude' ordinal='14' />
+            <column datatype='integer' name='specificity' ordinal='15' />
+            <column datatype='integer' name='vicinity' ordinal='16' />
+            <column datatype='string' name='location' ordinal='17' />
+            <column datatype='string' name='summary' ordinal='18' />
+            <column datatype='integer' name='crit1' ordinal='19' />
+            <column datatype='integer' name='crit2' ordinal='20' />
+            <column datatype='integer' name='crit3' ordinal='21' />
+            <column datatype='integer' name='doubtterr' ordinal='22' />
+            <column datatype='integer' name='alternative' ordinal='23' />
+            <column datatype='string' name='alternative_txt' ordinal='24' />
+            <column datatype='integer' name='multiple' ordinal='25' />
+            <column datatype='integer' name='success' ordinal='26' />
+            <column datatype='integer' name='suicide' ordinal='27' />
+            <column datatype='integer' name='attacktype1' ordinal='28' />
+            <column datatype='string' name='attacktype1_txt' ordinal='29' />
+            <column datatype='integer' name='attacktype2' ordinal='30' />
+            <column datatype='string' name='attacktype2_txt' ordinal='31' />
+            <column datatype='string' name='attacktype3' ordinal='32' />
+            <column datatype='string' name='attacktype3_txt' ordinal='33' />
+            <column datatype='integer' name='targtype1' ordinal='34' />
+            <column datatype='string' name='targtype1_txt' ordinal='35' />
+            <column datatype='integer' name='targsubtype1' ordinal='36' />
+            <column datatype='string' name='targsubtype1_txt' ordinal='37' />
+            <column datatype='string' name='corp1' ordinal='38' />
+            <column datatype='string' name='target1' ordinal='39' />
+            <column datatype='integer' name='natlty1' ordinal='40' />
+            <column datatype='string' name='natlty1_txt' ordinal='41' />
+            <column datatype='integer' name='targtype2' ordinal='42' />
+            <column datatype='string' name='targtype2_txt' ordinal='43' />
+            <column datatype='integer' name='targsubtype2' ordinal='44' />
+            <column datatype='string' name='targsubtype2_txt' ordinal='45' />
+            <column datatype='string' name='corp2' ordinal='46' />
+            <column datatype='string' name='target2' ordinal='47' />
+            <column datatype='integer' name='natlty2' ordinal='48' />
+            <column datatype='string' name='natlty2_txt' ordinal='49' />
+            <column datatype='integer' name='targtype3' ordinal='50' />
+            <column datatype='string' name='targtype3_txt' ordinal='51' />
+            <column datatype='integer' name='targsubtype3' ordinal='52' />
+            <column datatype='string' name='targsubtype3_txt' ordinal='53' />
+            <column datatype='string' name='corp3' ordinal='54' />
+            <column datatype='string' name='target3' ordinal='55' />
+            <column datatype='integer' name='natlty3' ordinal='56' />
+            <column datatype='string' name='natlty3_txt' ordinal='57' />
+            <column datatype='string' name='gname' ordinal='58' />
+            <column datatype='string' name='gsubname' ordinal='59' />
+            <column datatype='string' name='gname2' ordinal='60' />
+            <column datatype='string' name='gsubname2' ordinal='61' />
+            <column datatype='string' name='gname3' ordinal='62' />
+            <column datatype='string' name='gsubname3' ordinal='63' />
+            <column datatype='string' name='motive' ordinal='64' />
+            <column datatype='integer' name='guncertain1' ordinal='65' />
+            <column datatype='integer' name='guncertain2' ordinal='66' />
+            <column datatype='string' name='guncertain3' ordinal='67' />
+            <column datatype='integer' name='individual' ordinal='68' />
+            <column datatype='integer' name='nperps' ordinal='69' />
+            <column datatype='integer' name='nperpcap' ordinal='70' />
+            <column datatype='integer' name='claimed' ordinal='71' />
+            <column datatype='integer' name='claimmode' ordinal='72' />
+            <column datatype='string' name='claimmode_txt' ordinal='73' />
+            <column datatype='integer' name='claim2' ordinal='74' />
+            <column datatype='string' name='claimmode2' ordinal='75' />
+            <column datatype='string' name='claimmode2_txt' ordinal='76' />
+            <column datatype='string' name='claim3' ordinal='77' />
+            <column datatype='string' name='claimmode3' ordinal='78' />
+            <column datatype='string' name='claimmode3_txt' ordinal='79' />
+            <column datatype='string' name='compclaim' ordinal='80' />
+            <column datatype='integer' name='weaptype1' ordinal='81' />
+            <column datatype='string' name='weaptype1_txt' ordinal='82' />
+            <column datatype='integer' name='weapsubtype1' ordinal='83' />
+            <column datatype='string' name='weapsubtype1_txt' ordinal='84' />
+            <column datatype='integer' name='weaptype2' ordinal='85' />
+            <column datatype='string' name='weaptype2_txt' ordinal='86' />
+            <column datatype='integer' name='weapsubtype2' ordinal='87' />
+            <column datatype='string' name='weapsubtype2_txt' ordinal='88' />
+            <column datatype='integer' name='weaptype3' ordinal='89' />
+            <column datatype='string' name='weaptype3_txt' ordinal='90' />
+            <column datatype='integer' name='weapsubtype3' ordinal='91' />
+            <column datatype='string' name='weapsubtype3_txt' ordinal='92' />
+            <column datatype='string' name='weaptype4' ordinal='93' />
+            <column datatype='string' name='weaptype4_txt' ordinal='94' />
+            <column datatype='string' name='weapsubtype4' ordinal='95' />
+            <column datatype='string' name='weapsubtype4_txt' ordinal='96' />
+            <column datatype='string' name='weapdetail' ordinal='97' />
+            <column datatype='integer' name='nkill' ordinal='98' />
+            <column datatype='integer' name='nkillus' ordinal='99' />
+            <column datatype='integer' name='nkillter' ordinal='100' />
+            <column datatype='integer' name='nwound' ordinal='101' />
+            <column datatype='integer' name='nwoundus' ordinal='102' />
+            <column datatype='integer' name='nwoundte' ordinal='103' />
+            <column datatype='integer' name='property' ordinal='104' />
+            <column datatype='integer' name='propextent' ordinal='105' />
+            <column datatype='string' name='propextent_txt' ordinal='106' />
+            <column datatype='integer' name='propvalue' ordinal='107' />
+            <column datatype='string' name='propcomment' ordinal='108' />
+            <column datatype='integer' name='ishostkid' ordinal='109' />
+            <column datatype='integer' name='nhostkid' ordinal='110' />
+            <column datatype='integer' name='nhostkidus' ordinal='111' />
+            <column datatype='integer' name='nhours' ordinal='112' />
+            <column datatype='integer' name='ndays' ordinal='113' />
+            <column datatype='string' name='divert' ordinal='114' />
+            <column datatype='string' name='kidhijcountry' ordinal='115' />
+            <column datatype='integer' name='ransom' ordinal='116' />
+            <column datatype='integer' name='ransomamt' ordinal='117' />
+            <column datatype='string' name='ransomamtus' ordinal='118' />
+            <column datatype='integer' name='ransompaid' ordinal='119' />
+            <column datatype='string' name='ransompaidus' ordinal='120' />
+            <column datatype='string' name='ransomnote' ordinal='121' />
+            <column datatype='integer' name='hostkidoutcome' ordinal='122' />
+            <column datatype='string' name='hostkidoutcome_txt' ordinal='123' />
+            <column datatype='integer' name='nreleased' ordinal='124' />
+            <column datatype='string' name='addnotes' ordinal='125' />
+            <column datatype='string' name='scite1' ordinal='126' />
+            <column datatype='string' name='scite2' ordinal='127' />
+            <column datatype='string' name='scite3' ordinal='128' />
+            <column datatype='string' name='dbsource' ordinal='129' />
+            <column datatype='integer' name='INT_LOG' ordinal='130' />
+            <column datatype='integer' name='INT_IDEO' ordinal='131' />
+            <column datatype='integer' name='INT_MISC' ordinal='132' />
+            <column datatype='integer' name='INT_ANY' ordinal='133' />
+            <column datatype='string' name='related' ordinal='134' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;ibm-5348_P100-1997&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eventid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[eventid]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>eventid</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iyear</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iyear]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>iyear</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>imonth</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[imonth]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>imonth</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iday</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[iday]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>iday</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>approxdate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[approxdate]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>approxdate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>extended</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[extended]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>extended</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>resolution</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[resolution]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>resolution</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>country_txt</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[region]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>region</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>region_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[region_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>region_txt</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>provstate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[provstate]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>provstate</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[latitude]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>latitude</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[longitude]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>longitude</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>specificity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[specificity]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>specificity</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>vicinity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[vicinity]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>vicinity</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>location</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>summary</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[summary]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>summary</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crit1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crit1]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>crit1</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crit2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crit2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>crit2</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>crit3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[crit3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>crit3</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>doubtterr</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[doubtterr]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>doubtterr</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alternative</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[alternative]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>alternative</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>alternative_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[alternative_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>alternative_txt</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>multiple</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[multiple]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>multiple</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>success</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[success]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>success</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>suicide</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[suicide]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>suicide</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacktype1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[attacktype1]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>attacktype1</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacktype1_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[attacktype1_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>attacktype1_txt</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacktype2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[attacktype2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>attacktype2</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacktype2_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[attacktype2_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>attacktype2_txt</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacktype3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[attacktype3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>attacktype3</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>attacktype3_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[attacktype3_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>attacktype3_txt</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targtype1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[targtype1]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>targtype1</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targtype1_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[targtype1_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>targtype1_txt</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targsubtype1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[targsubtype1]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>targsubtype1</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targsubtype1_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[targsubtype1_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>targsubtype1_txt</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>corp1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[corp1]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>corp1</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>target1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[target1]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>target1</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natlty1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[natlty1]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>natlty1</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natlty1_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[natlty1_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>natlty1_txt</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targtype2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[targtype2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>targtype2</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targtype2_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[targtype2_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>targtype2_txt</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targsubtype2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[targsubtype2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>targsubtype2</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targsubtype2_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[targsubtype2_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>targsubtype2_txt</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>corp2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[corp2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>corp2</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>target2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[target2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>target2</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natlty2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[natlty2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>natlty2</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natlty2_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[natlty2_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>natlty2_txt</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targtype3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[targtype3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>targtype3</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targtype3_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[targtype3_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>targtype3_txt</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targsubtype3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[targsubtype3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>targsubtype3</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>targsubtype3_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[targsubtype3_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>targsubtype3_txt</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>corp3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[corp3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>corp3</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>target3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[target3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>target3</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natlty3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[natlty3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>natlty3</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>natlty3_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[natlty3_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>natlty3_txt</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gname]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>gname</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gsubname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gsubname]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>gsubname</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gname2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gname2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>gname2</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gsubname2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gsubname2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>gsubname2</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gname3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gname3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>gname3</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gsubname3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gsubname3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>gsubname3</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>motive</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[motive]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>motive</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>guncertain1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[guncertain1]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>guncertain1</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>guncertain2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[guncertain2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>guncertain2</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>guncertain3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[guncertain3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>guncertain3</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>individual</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[individual]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>individual</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nperps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nperps]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>nperps</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nperpcap</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nperpcap]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>nperpcap</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[claimed]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>claimed</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimmode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[claimmode]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>claimmode</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimmode_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[claimmode_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>claimmode_txt</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claim2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[claim2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>claim2</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimmode2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[claimmode2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>claimmode2</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimmode2_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[claimmode2_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>claimmode2_txt</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claim3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[claim3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>claim3</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimmode3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[claimmode3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>claimmode3</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>claimmode3_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[claimmode3_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>claimmode3_txt</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>compclaim</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[compclaim]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>compclaim</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weaptype1]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weaptype1</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype1_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[weaptype1_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weaptype1_txt</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weapsubtype1]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weapsubtype1</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype1_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[weapsubtype1_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weapsubtype1_txt</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weaptype2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weaptype2</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype2_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[weaptype2_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weaptype2_txt</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weapsubtype2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weapsubtype2</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype2_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[weapsubtype2_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weapsubtype2_txt</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weaptype3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weaptype3</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype3_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[weaptype3_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weaptype3_txt</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[weapsubtype3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weapsubtype3</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype3_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[weapsubtype3_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weapsubtype3_txt</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[weaptype4]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weaptype4</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weaptype4_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[weaptype4_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weaptype4_txt</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[weapsubtype4]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weapsubtype4</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapsubtype4_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[weapsubtype4_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weapsubtype4_txt</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>weapdetail</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[weapdetail]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>weapdetail</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nkill</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nkill]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>nkill</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nkillus</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nkillus]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>nkillus</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nkillter</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nkillter]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>nkillter</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nwound</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nwound]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>nwound</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nwoundus</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nwoundus]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>nwoundus</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nwoundte</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nwoundte]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>nwoundte</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>property</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[property]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>property</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>propextent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[propextent]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>propextent</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>propextent_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[propextent_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>propextent_txt</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>propvalue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[propvalue]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>propvalue</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>propcomment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[propcomment]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>propcomment</remote-alias>
+            <ordinal>108</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ishostkid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ishostkid]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>ishostkid</remote-alias>
+            <ordinal>109</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nhostkid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nhostkid]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>nhostkid</remote-alias>
+            <ordinal>110</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nhostkidus</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nhostkidus]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>nhostkidus</remote-alias>
+            <ordinal>111</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nhours</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nhours]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>nhours</remote-alias>
+            <ordinal>112</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ndays</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ndays]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>ndays</remote-alias>
+            <ordinal>113</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>divert</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[divert]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>divert</remote-alias>
+            <ordinal>114</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kidhijcountry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[kidhijcountry]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>kidhijcountry</remote-alias>
+            <ordinal>115</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ransom</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ransom]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>ransom</remote-alias>
+            <ordinal>116</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ransomamt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ransomamt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>ransomamt</remote-alias>
+            <ordinal>117</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ransomamtus</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ransomamtus]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>ransomamtus</remote-alias>
+            <ordinal>118</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ransompaid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ransompaid]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>ransompaid</remote-alias>
+            <ordinal>119</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ransompaidus</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ransompaidus]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>ransompaidus</remote-alias>
+            <ordinal>120</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ransomnote</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ransomnote]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>ransomnote</remote-alias>
+            <ordinal>121</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hostkidoutcome</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hostkidoutcome]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>hostkidoutcome</remote-alias>
+            <ordinal>122</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hostkidoutcome_txt</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hostkidoutcome_txt]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>hostkidoutcome_txt</remote-alias>
+            <ordinal>123</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nreleased</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[nreleased]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>nreleased</remote-alias>
+            <ordinal>124</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>addnotes</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[addnotes]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>addnotes</remote-alias>
+            <ordinal>125</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scite1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[scite1]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>scite1</remote-alias>
+            <ordinal>126</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scite2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[scite2]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>scite2</remote-alias>
+            <ordinal>127</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>scite3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[scite3]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>scite3</remote-alias>
+            <ordinal>128</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dbsource</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dbsource]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>dbsource</remote-alias>
+            <ordinal>129</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INT_LOG</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[INT_LOG]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>INT_LOG</remote-alias>
+            <ordinal>130</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INT_IDEO</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[INT_IDEO]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>INT_IDEO</remote-alias>
+            <ordinal>131</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INT_MISC</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[INT_MISC]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>INT_MISC</remote-alias>
+            <ordinal>132</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>INT_ANY</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[INT_ANY]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>INT_ANY</remote-alias>
+            <ordinal>133</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>related</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[related]</local-name>
+            <parent-name>[globalterrorismdb_0718dist.csv]</parent-name>
+            <remote-alias>related</remote-alias>
+            <ordinal>134</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column aggregation='None' datatype='integer' name='[attacktype1 (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[attacktype1]' peg='0' size='1.328' />
+      </column>
+      <column datatype='integer' name='[attacktype1]' role='measure' type='quantitative' />
+      <column datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[country_txt]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='None' datatype='integer' name='[iyear (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[iyear]' peg='0' size='3.82' />
+      </column>
+      <column datatype='integer' name='[iyear]' role='measure' type='quantitative' />
+      <column datatype='string' name='[kidhijcountry]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='None' datatype='integer' name='[multiple (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[multiple]' peg='0' size='0.266' />
+      </column>
+      <column datatype='integer' name='[multiple]' role='measure' type='quantitative' />
+      <column aggregation='None' datatype='integer' name='[region (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[region]' peg='0' size='1.6' />
+      </column>
+      <column datatype='integer' name='[region]' role='measure' type='quantitative' />
+      <column datatype='string' name='[targtype1_txt]' role='dimension' type='nominal' />
+      <column aggregation='None' datatype='integer' name='[targtype3 (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[targtype3]' peg='0' size='2.38' />
+      </column>
+      <column datatype='integer' name='[targtype3]' role='measure' type='quantitative' />
+      <column-instance column='[attacktype1 (bin)]' derivation='None' name='[none:attacktype1 (bin):ok]' pivot='key' type='ordinal' />
+      <column-instance column='[targtype1_txt]' derivation='None' name='[none:targtype1_txt:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Exclusions (attacktype1 (bin),targtype1_txt)]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:attacktype1 (bin):ok]' />
+          <groupfilter function='level-members' level='[none:targtype1_txt:nk]' />
+        </groupfilter>
+      </group>
+      <layout dim-ordering='alphabetic' dim-percentage='0.557692' measure-ordering='alphabetic' measure-percentage='0.442308' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Region vs year'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Region vs Year&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='globalterrorismdb_0718dist' name='federated.09dmcbt07pgxvv1e7ea4m0xi3bss' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09dmcbt07pgxvv1e7ea4m0xi3bss'>
+            <column datatype='string' name='[attacktype1_txt]' role='dimension' type='nominal' />
+            <column-instance column='[region]' derivation='Attribute' name='[attr:region:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[iyear]' derivation='Count' name='[cnt:iyear:qk]' pivot='key' type='quantitative' />
+            <column aggregation='None' datatype='integer' name='[iyear (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[iyear]' peg='0' size='3.82' />
+            </column>
+            <column datatype='integer' name='[iyear]' role='measure' type='quantitative' />
+            <column-instance column='[attacktype1_txt]' derivation='None' name='[none:attacktype1_txt:nk]' pivot='key' type='nominal' />
+            <column-instance column='[iyear (bin)]' derivation='None' name='[none:iyear (bin):qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[region]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <lod column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[attr:region:qk]' />
+              <color column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1_txt:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[cnt:iyear:qk]</rows>
+        <cols>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:iyear (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[iyear (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{079651A6-AA0A-4DC4-A64C-86288C0AA22C}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Multiple vs Region &gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='globalterrorismdb_0718dist' name='federated.09dmcbt07pgxvv1e7ea4m0xi3bss' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09dmcbt07pgxvv1e7ea4m0xi3bss'>
+            <column-instance column='[multiple]' derivation='Count' name='[cnt:multiple:qk]' pivot='key' type='quantitative' />
+            <column aggregation='None' datatype='integer' name='[multiple (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-1' formula='[multiple]' peg='0' size='0.266' />
+            </column>
+            <column datatype='integer' name='[multiple]' role='measure' type='quantitative' />
+            <column-instance column='[multiple (bin)]' derivation='None' name='[none:multiple (bin):ok]' pivot='key' type='ordinal' />
+            <column-instance column='[region_txt]' derivation='None' name='[none:region_txt:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[region_txt]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region_txt:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[cnt:multiple:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:multiple (bin):ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[cnt:multiple:qk]</rows>
+        <cols>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region_txt:nk]</cols>
+        <show-full-range>
+          <column>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[multiple (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{6EC3994B-7244-4ECF-A25E-641FD116B681}' />
+    </worksheet>
+    <worksheet name='Sheet 4 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Multiple vs Attack&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='globalterrorismdb_0718dist' name='federated.09dmcbt07pgxvv1e7ea4m0xi3bss' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09dmcbt07pgxvv1e7ea4m0xi3bss'>
+            <column datatype='string' name='[attacktype1_txt]' role='dimension' type='nominal' />
+            <column-instance column='[multiple]' derivation='Count' name='[cnt:multiple:qk]' pivot='key' type='quantitative' />
+            <column aggregation='None' datatype='integer' name='[multiple (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='-1' formula='[multiple]' peg='0' size='0.266' />
+            </column>
+            <column datatype='integer' name='[multiple]' role='measure' type='quantitative' />
+            <column-instance column='[attacktype1_txt]' derivation='None' name='[none:attacktype1_txt:nk]' pivot='key' type='nominal' />
+            <column-instance column='[multiple (bin)]' derivation='None' name='[none:multiple (bin):ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1_txt:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[cnt:multiple:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:multiple (bin):ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[cnt:multiple:qk]</rows>
+        <cols>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1_txt:nk]</cols>
+        <show-full-range>
+          <column>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[multiple (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{34EBC1D9-99D8-4FDE-A29C-71BB75BAE59F}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='globalterrorismdb_0718dist' name='federated.09dmcbt07pgxvv1e7ea4m0xi3bss' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09dmcbt07pgxvv1e7ea4m0xi3bss'>
+            <column aggregation='None' datatype='integer' name='[attacktype1 (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[attacktype1]' peg='0' size='1.328' />
+            </column>
+            <column datatype='integer' name='[attacktype1]' role='measure' type='quantitative' />
+            <column-instance column='[attacktype1]' derivation='Count' name='[cnt:attacktype1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[attacktype1 (bin)]' derivation='None' name='[none:attacktype1 (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[targtype1_txt]' derivation='None' name='[none:targtype1_txt:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[targtype1_txt]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+            <encodings>
+              <color column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:targtype1_txt:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[cnt:attacktype1:qk]</rows>
+        <cols>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1 (bin):qk]</cols>
+        <show-full-range>
+          <column>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[attacktype1 (bin)]</column>
+        </show-full-range>
+      </table>
+      <simple-id uuid='{B2CE3DE4-B5BD-4AAB-8A47-5EA7DCEB3A67}' />
+    </worksheet>
+    <worksheet name='Sheet 7 (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='globalterrorismdb_0718dist' name='federated.09dmcbt07pgxvv1e7ea4m0xi3bss' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09dmcbt07pgxvv1e7ea4m0xi3bss'>
+            <column aggregation='None' datatype='integer' name='[attacktype1 (bin)]' role='dimension' type='quantitative'>
+              <calculation class='bin' decimals='0' formula='[attacktype1]' peg='0' size='1.328' />
+            </column>
+            <column datatype='integer' name='[attacktype1]' role='measure' type='quantitative' />
+            <column-instance column='[attacktype1]' derivation='Count' name='[cnt:attacktype1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[attacktype1 (bin)]' derivation='None' name='[none:attacktype1 (bin):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[region_txt]' derivation='None' name='[none:region_txt:nk]' pivot='key' type='nominal' />
+            <column-instance column='[targtype1_txt]' derivation='None' name='[none:targtype1_txt:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[region_txt]' role='dimension' type='nominal' />
+            <column datatype='string' name='[targtype1_txt]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[cnt:attacktype1:qk]' />
+              <color column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region_txt:nk]' />
+              <text column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:targtype1_txt:nk]' />
+              <text column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1 (bin):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{18EB05AE-F213-43CA-9624-0BE0B966777A}' />
+    </worksheet>
+    <worksheet name='Types of Attack'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='globalterrorismdb_0718dist' name='federated.09dmcbt07pgxvv1e7ea4m0xi3bss' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09dmcbt07pgxvv1e7ea4m0xi3bss'>
+            <column datatype='integer' name='[attacktype1]' role='measure' type='quantitative' />
+            <column datatype='string' name='[attacktype1_txt]' role='dimension' type='nominal' />
+            <column-instance column='[attacktype1_txt]' derivation='None' name='[none:attacktype1_txt:nk]' pivot='key' type='nominal' />
+            <column-instance column='[attacktype1]' derivation='Sum' name='[sum:attacktype1:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1_txt:nk]' />
+              <wedge-size column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:attacktype1:qk]' />
+              <size column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:attacktype1:qk]' />
+              <text column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:attacktype1:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{D9111B97-0671-4276-85E5-9F5F1AF90FE0}' />
+    </worksheet>
+    <worksheet name='Weap Type'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='globalterrorismdb_0718dist' name='federated.09dmcbt07pgxvv1e7ea4m0xi3bss' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09dmcbt07pgxvv1e7ea4m0xi3bss'>
+            <column-instance column='[weaptype1_txt]' derivation='None' name='[none:weaptype1_txt:nk]' pivot='key' type='nominal' />
+            <column-instance column='[weaptype1]' derivation='Sum' name='[sum:weaptype1:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[weaptype1]' role='measure' type='quantitative' />
+            <column datatype='string' name='[weaptype1_txt]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:weaptype1_txt:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:weaptype1:qk]</rows>
+        <cols>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:weaptype1_txt:nk]</cols>
+      </table>
+      <simple-id uuid='{ED6A6214-4EA6-40F8-94F1-C8E5A4347F7E}' />
+    </worksheet>
+    <worksheet name='regions'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'> Regions coressponding to the number assigned </run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='globalterrorismdb_0718dist' name='federated.09dmcbt07pgxvv1e7ea4m0xi3bss' />
+          </datasources>
+          <datasource-dependencies datasource='federated.09dmcbt07pgxvv1e7ea4m0xi3bss'>
+            <column-instance column='[region_txt]' derivation='None' name='[none:region_txt:nk]' pivot='key' type='nominal' />
+            <column datatype='integer' name='[region]' role='measure' type='quantitative' />
+            <column datatype='string' name='[region_txt]' role='dimension' type='nominal' />
+            <column-instance column='[region]' derivation='Sum' name='[sum:region:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region_txt:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:region:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region_txt:nk]' value='67' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region_txt:nk]' value='true' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:region:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-family' value='Tableau Light' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:region:qk]</rows>
+        <cols>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region_txt:nk]</cols>
+      </table>
+      <simple-id uuid='{05BCA9E1-BF80-40B5-8688-7D580D6B2DAE}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='4' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type='layout-basic' w='49200' x='800' y='1000'>
+              <zone h='98000' id='3' name='Sheet 4' w='49200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='492' h='98000' id='6' is-fixed='true' param='vert' type='layout-flow' w='49200' x='50000' y='1000'>
+              <zone h='98000' id='9' name='Sheet 4 (2)' w='49200' x='50000' y='1000'>
+                <layout-cache cell-count-w='9' minheight='269' non-cell-size-w='59' type-h='scalable' type-w='cell' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='32500' id='10' type='text' w='99100' x='200' y='103750'>
+          <formatted-text>
+            <run fontalignment='0' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>From the above graphs , following can be inferred :</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>Multiple attacks have not been reported in many regions. Regions where they have been reported are North America , Western Europe and Middle East and north Africa. North America having a higher number.</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>Out of these multiple attacks , bombing and explosion are more frequent , then come facility/infrastructure attack , then is hijacking , Armed assaults , followed by hostage taking.</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>From the plot between iyear and regions , it can be seen that the hot zone of terrorism are North America , Middle East and North Africa , south America and Western Europe.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='20' type='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='19' param='vert' type='layout-flow' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='Sheet 4' w='49200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='9' is-fixed='true' name='Sheet 4 (2)' w='49200' x='50000' y='1000'>
+                  <layout-cache cell-count-w='9' minheight='269' non-cell-size-w='59' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='32500' id='10' type='text' w='99100' x='200' y='103750'>
+                  <formatted-text>
+                    <run fontalignment='0' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>From the above graphs , following can be inferred :</run>
+                    <run fontalignment='0'>Æ&#10;</run>
+                    <run fontalignment='0' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>Multiple attacks have not been reported in many regions. Regions where they have been reported are North America , Western Europe and Middle East and north Africa. North America having a higher number.</run>
+                    <run fontalignment='0'>Æ&#10;</run>
+                    <run fontalignment='0' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>Out of these multiple attacks , bombing and explosion are more frequent , then come facility/infrastructure attack , then is hijacking , Armed assaults , followed by hostage taking.</run>
+                    <run fontalignment='0'>Æ&#10;</run>
+                    <run fontalignment='0' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>From the plot between iyear and regions , it can be seen that the hot zone of terrorism are North America , Middle East and North Africa , south America and Western Europe.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{3217E04D-AD7F-4FAA-9511-5A522D6C7010}' />
+    </dashboard>
+    <dashboard name='Story 1' type='storyboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;</run>
+            <run fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'> Regions coressponding to the number assigned </run>
+            <run>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='1060' maxwidth='1654' minheight='1060' minwidth='1654' preset-index='14' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98490' id='10' param='vert' removable='false' type='layout-flow' w='99032' x='484' y='755'>
+            <zone h='98490' id='7' param='vert' removable='false' type='layout-flow' w='99032' x='484' y='755'>
+              <zone h='98490' id='1' param='vert' removable='false' type='layout-flow' w='99032' x='484' y='755'>
+                <zone h='9528' id='4' is-fixed='true' paired-zone-id='5' removable='false' type='flipboard-nav' w='99032' x='484' y='755' />
+                <zone h='88962' id='5' paired-zone-id='4' removable='false' type='flipboard' w='99032' x='484' y='10283'>
+                  <flipboard active-id='11' nav-type='caption' show-nav-arrows='true'>
+                    <story-points>
+                      <story-point caption='Start' captured-sheet='' id='13' />
+                      <story-point caption='Regions coressponding to the number assigned ' captured-sheet='regions' id='3'>
+                        <currentDeltas>
+                          <worksheet name='regions'>
+                            <style delta-type='added'>
+                              <style-rule element='axis'>
+                                <encoding attr='space' class='0' field='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:region:qk]' field-type='quantitative' scope='rows' type='space' />
+                              </style-rule>
+                            </style>
+                            <shelf-sort-deltas>
+                              <clear-shelf-sorts>
+                                <clear-shelf-sort-v2 dimension='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region_txt:nk]' is-on-innermost-dimension='true' shelf='columns' />
+                              </clear-shelf-sorts>
+                            </shelf-sort-deltas>
+                          </worksheet>
+                        </currentDeltas>
+                        <capturedDeltas>
+                          <worksheet name='regions'>
+                            <style delta-type='added'>
+                              <style-rule element='axis'>
+                                <encoding attr='space' class='0' field='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:region:qk]' field-type='quantitative' scope='rows' type='space' />
+                              </style-rule>
+                            </style>
+                          </worksheet>
+                        </capturedDeltas>
+                      </story-point>
+                      <story-point caption='Type of Attacks' captured-sheet='Types of Attack' id='4' />
+                      <story-point caption='Region and Year with hue as attacktype1_txt. ' captured-sheet='Region vs year' id='5' />
+                      <story-point caption='Multiple attacks on Region' captured-sheet='Dashboard 1' id='6'>
+                        <capturedDeltas>
+                          <worksheet name='Sheet 4 (2)'>
+                            <selection-collection />
+                          </worksheet>
+                        </capturedDeltas>
+                      </story-point>
+                      <story-point caption='Multiple attacks' captured-sheet='' id='7' />
+                      <story-point caption='Weap Types' captured-sheet='Weap Type' id='8'>
+                        <capturedDeltas>
+                          <worksheet name='Weap Type'>
+                            <shelf-sort-deltas>
+                              <shelf-sorts>
+                                <shelf-sort-v2 dimension-to-sort='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:weaptype1_txt:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:weaptype1:qk]' shelf='columns' />
+                              </shelf-sorts>
+                            </shelf-sort-deltas>
+                          </worksheet>
+                        </capturedDeltas>
+                      </story-point>
+                      <story-point caption='Hot Region Bar chart' captured-sheet='Sheet 7' id='9'>
+                        <capturedDeltas>
+                          <worksheet name='Sheet 7'>
+                            <style delta-type='added'>
+                              <style-rule element='axis'>
+                                <encoding attr='space' class='0' field='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1 (bin):qk]' field-type='quantitative' major-origin='0' major-spacing='1' range-type='uniform' scope='cols' type='space' />
+                              </style-rule>
+                            </style>
+                          </worksheet>
+                        </capturedDeltas>
+                      </story-point>
+                      <story-point caption='Hot region Tree' captured-sheet='Sheet 7 (2)' id='11' />
+                      <story-point caption='Conclusion' captured-sheet='' id='12' />
+                    </story-points>
+                  </flipboard>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='20193' hidden='true' id='8' story-point-id='5' type='text' w='43969' x='10094' y='17412'>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>Graph plotted between Region and Year with corresponding attacktype1. This will help us know the frequency of attacks in a specific region and how much are they prevelant. Helping us know the hot zones of terrorism.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='46312' hidden='true' id='11' story-point-id='7' type='text' w='90761' x='6843' y='21040'>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#000000' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13' underline='true'>From the above graphs , following can be inferred :</run>
+            <run fontalignment='0'>Æ&#10;&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>Multiple attacks have not been reported in many regions. Regions where they have been reported are North America , Western Europe and Middle East and north Africa. North America having a higher number.</run>
+            <run fontalignment='0'>Æ&#10;&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>Out of these multiple attacks , bombing and explosion are more frequent , then come facility/infrastructure attack , then is hijacking , Armed assaults , followed by hostage taking.</run>
+            <run fontalignment='0'>Æ&#10;&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>From the plot between iyear and regions , it can be seen that the hot zone of terrorism are North America , Middle East and North Africa , south America and Western Europe.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='52222' hidden='true' id='12' story-point-id='12' type='text' w='63750' x='10000' y='18111'>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#000000' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>From the above plots following points are derived :</run>
+            <run fontalignment='0'>Æ&#10;&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>1) Attack type 3 is more common on targets , mostly people of Business type and people having millitary background have been targetted.</run>
+            <run fontalignment='0'>Æ&#10;&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>2) Attack type 7 is second most common attack on people of Business type.</run>
+            <run fontalignment='0'>Æ&#10;&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>3)Attack type 1 is third most common attack on people having millitary background.</run>
+            <run fontalignment='0'>&#10;&#10;4) </run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Helvetica Neue,Helvetica,Arial,sans-serif' fontsize='13'>Also, it can be seen that there are huge number of weapons in 3 categories Explosive, Incendiary , Firearms. This affirms to the reported cases of attacks on the targets.</run>
+          </formatted-text>
+        </zone>
+        <zone flipboard-zone-id='5' forceUpdate='true' h='54333' hidden='true' id='13' story-point-id='13' type='text' w='55500' x='17625' y='21444'>
+          <formatted-text>
+            <run bold='true' fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>Task 4 : Exploratory Data Analysis - Terrorism</run>
+            <run fontalignment='0'>Æ&#10;&#10;&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>Perform ‘Exploratory Data Analysis’ on dataset ‘Global Terrorism’ .</run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>As a security/defense analyst, try to find out the hot zone of terrorism. </run>
+            <run fontalignment='0'>Æ&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>What all security issues and insights you can derive by EDA? </run>
+            <run fontalignment='0'>Æ&#10;&#10;</run>
+            <run fontalignment='0' fontcolor='#000000' fontname='Benton Sans Book'>Created By: Amitkumar Rautray</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{2130125F-331F-403D-BCD2-1EC29868977F}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='regions' tab-color='#f66273'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+          <strip size='160'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region (bin):qk]</field>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region_txt:nk]</field>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:region:qk]</field>
+          </color-one-way>
+        </highlight>
+        <floating-toolbar-visibility value='1' />
+      </viewpoint>
+      <simple-id uuid='{7B2BF772-06D1-424B-84F9-C71A3422B250}' />
+    </window>
+    <window class='worksheet' name='Types of Attack'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1_txt:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:attacktype1:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1_txt:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{827CE0AC-F56E-4E6D-A2C2-CBF206BA171B}' />
+    </window>
+    <window class='worksheet' name='Region vs year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1_txt:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1_txt:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{97A35524-FECF-4A8C-AD34-66128FEE9AE1}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='7' param='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:multiple (bin):ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:multiple (bin):ok]</field>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region_txt:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B6388B62-D4C5-4066-8FCA-2C9DECAEB67F}' />
+    </window>
+    <window class='worksheet' name='Sheet 4 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='7' param='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:multiple (bin):ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1_txt:nk]</field>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:multiple (bin):ok]</field>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region_txt:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E002EC9A-14A2-4992-882F-ACD8E3005080}' />
+    </window>
+    <window class='worksheet' name='Weap Type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:weaptype1_txt:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:weaptype1_txt:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{85BCA4F6-BB0A-43F4-BE20-52781E4604B4}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:targtype1_txt:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:targtype1_txt:nk]</field>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:targtype1:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{EDD148D0-4DAE-43FC-A2D3-14ED60575B8B}' />
+    </window>
+    <window class='worksheet' name='Sheet 7 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region_txt:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1 (bin):qk]</field>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:region_txt:nk]</field>
+            <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[sum:targtype1:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8DD933DA-0E78-4809-BA7C-0A48D835CA03}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4 (2)'>
+          <zoom type='entire-view' />
+          <selection-collection>
+            <tuple-selection>
+              <tuple-reference>
+                <tuple-descriptor>
+                  <pane-descriptor>
+                    <x-fields>
+                      <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1_txt:nk]</field>
+                    </x-fields>
+                    <y-fields>
+                      <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[cnt:multiple:qk]</field>
+                    </y-fields>
+                  </pane-descriptor>
+                  <columns>
+                    <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[cnt:multiple:qk]</field>
+                    <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:attacktype1_txt:nk]</field>
+                    <field>[federated.09dmcbt07pgxvv1e7ea4m0xi3bss].[none:multiple (bin):ok]</field>
+                  </columns>
+                </tuple-descriptor>
+                <tuple>
+                  <value>38391</value>
+                  <value>&quot;Armed Assault&quot;</value>
+                  <value>0</value>
+                </tuple>
+              </tuple-reference>
+            </tuple-selection>
+          </selection-collection>
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{0EC3791D-4E4D-40DA-A4B7-702E37384626}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Story 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{13C5CA2E-0CA0-4E89-8209-2C0ADD570FA3}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAgAElEQVR4nO2deXRc13nYf7NiZjDADPZ9IUhsBEASBFeRlEhKlChqc2wplu1YSZwmblo7
+      SX1cJ+1pe9xzeuqmdbPUPkntVGrqyFZsyZJoypZISuK+iCBAkOCChdiIdYCZAWbfZ/oHREok
+      5s0MqQGGxNzfOTwC3vvefZ8e3vfud7/7fffKIpFIBIEgTZGnWgGBIJUIAxCkNcpP/2Kx2lKl
+      h2CJyMs1AOJvfZMHqgcIh/xM9J3j+z/+ZwC+95ff+9RZH0ePn6b9XDsXL3XdOmoeOE/3uCOh
+      9t/6+f/jV796m1de/UXU81cudRGQuNbjdOAPhRO6jyBx7HY7r/z1f2Zkzs9A1zF+8d7pW+eO
+      Hj/CtXPtTJgGGDTZbzueKMr4IvcHR957i9EZJ5sbi+i5MsicqYfeURevv/kLXvj8M7z+5gH8
+      TheXB6doXFXK0ffeIseYT35RAQGdnYOvX0WXncO/+tpXeP2nr7Lr4WbefOcMblRs3PwQ29av
+      ZsY8S9PaGq5dv8Cp9/fT3T9OcVU1o7293JiYpmVtA+OTw1isLnS5BXQe/QB1ThF/8Z1vEQm4
+      ef2tN8ksqOBze3en+nE98MyM9fHBifMYi1cg12Vy/vgJNIoxPGYtr7/5K8ALwMR4J1lT+cza
+      4VWzn5LcLIx6OT//x7/DbLWz7XP/guaiIL88fJmIZxqXdQK5oZyXfudFFDxAPUB19QoiIT8O
+      p5cdbVV8/x8+5KG2WggE8Ac8ePyg1uexfnUdALmlNXzhye1cHx7nxkAPxtKVVJQUArB7Sy3/
+      /ccf8PSzT1Kck8mNkWEAVFo9Zfl6cgpKuNbTT0NzCzkKN7k1bWxYM9/u6LSD337xi8xODbGy
+      aT11pXn4Aa/LiT8UYUX1ilQ8nmVHTkEZhswMHHYHCk0+EfcoMnkWICMQCOB2eQAoLKqmproU
+      gG2795GBD4ChsUmaWlpQEUSZWYzSM4JSm0dzSwvTI9eZ84JttAvZp8OgD4Jf6LHeYNSpY2Lo
+      CkaDgYqCTD4810fD6mrkYSWToyPkFRdy8vCvKF25nkc2NeJS5nDh+GGKaprZur4JCHPs+Ak2
+      rannnUNHaWrbweqVZVy8eJG1a9fS9dFJ8svKOXX8NBse3sWFEx9w/nI/X/rib1FWlMMHR87w
+      0O7HsE5NoSRI3Zp1qFL9YBLkQRwDXOzqQidzo6tczcyIiVlTL5agmsaaCvI0MgbGZ4h4LBzr
+      mWPf7kdQy70ofQ4uXp9g3zPPoc9QcP3SGbQVrYxfPsmkPczTTz3O9YvnHzwDSJSLl7pYu2Zd
+      EloK8/6v96MwlrNr28YktJdaHkQDSASHaYAZCqgpyr6r624zgEAgmHTFBPcXKtX8sE/8reeR
+      iZlgQTrzwESBkk7IR9eVQbLUIfIr6xjrv8TQ2BybNzdhd8uYmRylZd16MjMU/Prtf6Zxwy4y
+      ZR6OnL/Mi889nWrtBQnQf/Ui4YCbg0fO8fBTzxNwWmmqKeHGjJvLl09SrFSksQH4Z+gbHGPk
+      cjuFxghFdRvZ/8El5gJ2MkNynBEZplklz+1tJSRXM3P1FGf8OWjl/lRrLkiIMF0Xz+GamSES
+      1nNjaITOzrNcr61hzyM7+GD/fn73xRfS2AUK2OkddmGZuEK2MZuO0yeZ1Tezt60YqxtyDHrk
+      aKmvLaH/6gUsXiUGrQqn28XGtrZUay+IS5gjhw+SnZuDY84FKi22OTuNjZVMmT3kZYVw271p
+      bACfJhzkfMdFWje0oZB9cnh0oJeB0UnqmtZRWmBMnX6CReMzGYDZbE6mLoJFxu12U1lZ+Zna
+      mJycRKV6UGY94vOZxwD5+fnJ0EOwBCTjg6VSqZbV3/yBSYUQLB03Bnqw2D30Xr2CxzXHnDvA
+      tMmUarUWhfSNAgkkOdXehUZ+AllIx4XTJxmXGXnqsZ0UplqxRUD0AIIF1FWX4fAEgfnhoddl
+      Z8Yyh81mw+12p1a5JCN6AMEC8vLyeOYLX2P6xnUqq8rwyTLx2s0YDAYCAamKiAeTuAbQf62L
+      OZ8abcSOylhO2O8g5A/S3NJyS6bzhjXqtVkZSmrvMjlJkHqqa1cDkLO6CQAtgK4kdQotInEN
+      oLurm/yqRiyWOWTjNk4dfY3HXvrubTLf/Nm5qNe2Vubywy9vSoqigvuLganoH72baNUqSnOz
+      lkibeyfuGKB5TQvXB/pxO6fxK9U0bHiEwa7TuNxubLbllVIrSByXNxDzn8f/YLhKcXuAuqZ1
+      1DVFz6s3GAxJV0ggWEpEFEiQ1ggDEKQ1wgAEaY0wAEFaIwxAkNYIAxCkNcIABGmNMABBWiMM
+      QJDWiGxQwQIOHXiLjLxiLNevUFVfR1BfQtDtZdvGlvgXP2DENYCAy8wP/u8vKc9Ts3bTY3Sd
+      P4hCU87zz+1dCv0EKWDabELrsaIrWEHP2fP8umeGv/ub/5Ke9QDvvnsQt9dFWWE1Fy52cvnc
+      GR5+/s9wf5wMl2h96Msnr0c9XmLQsq+l7O60Fiwq+fmFaHIKsQ720LBlA6ufXsXZk6fZ++iO
+      9KsHePb5r1Dfew2n1czqkpWsbarD5/ai0enuKhnuFQkDaK3MFQZwn7H3mc/P/7B9+ycHV5am
+      RplFJqExQH1942LrIRCkBBEFEqQ1wgAEaY0wAEFaIwxAkNYIAxCkNcIABGmNMABBWiMMQJDW
+      CAMQpDXxZ4LDfl5/89cUGdSocioJ+C0EPRF2P7prCdQTCBaXuD3Apc5OgrIwLo8C28QYv/6n
+      HyIvWHkrGU4geJCJ2wNodRrsdhel5RrUOZU89dU/wT1xFc2avWJluGVKx0cnsAczkDmnWNnY
+      SEhbhNM0QXNzQ6pVSzpxDaB29TpqV0dfGlGwPCk1aIgEVZjnNJzc/xuOjDr53ne/k2q1FgUx
+      CBYs4OLgDG2NKxntvUB2aT57HnuEI8dOp2dBjCD92LtvHwB/+K0/X3BuuRXEiB5AkNYIAxCk
+      NcIABGmNMABBWiMMQJDWCAMQpDXCAARpTdx5gLmZCSweOQqfFZ88i1yDhkgoTGFR0VLoJxAs
+      KnF7gGAowpGjH3Lq1HH0WVm88bMfcXFgfCl0EwgWnbgGEFaoydGpWLdhB2eOH8bj9WCZNots
+      UMGyIK4LpIr4WbtxG+qAje27nkCxcyfhYPCul0YUCO5H4hpATmEZOQAsz7UhBemNiAIJ0hqR
+      DSpYwBs/+wn1a9dy9uB7lFaVM6ctpyI/l4c3Lb8NMkQPIFiAxTZL7+VzVDa0Yp8wc+bECUor
+      KtOjHqCjo4O2trZU6CK4T9i2eTMRXQHm4ctsf24fW3WlzI72s6p13bKrB4hqAIAwgjSmef2W
+      +R8aVt46Vp2/PMtio7pAHR0dHDhwYKl1EQiWnAU9wB/90R+lQg+BICVE6QHCfHDkCGNjIt1B
+      sPxZaADuad5+7wRnL15OgTqCpeTmeC+dWeACnWnvZtemJoqK53duHLjWzbHOHoxyD6qcCty2
+      AbFP8DJBBDyi9ABbN7cyM+vCYjEDsLJ2FQT9ZGYVoQ766T53huzCMpEMt0xI94DHgh4gFFag
+      IIBlfIi+kXpwmqhf3US2woM6p4LK2m/f0z7BgvsPEfCIYgCXL53Hj5KCwjLqqkqAEupSoJhg
+      KQjzwZFj1NfWUV6enpuVL3CBerovcqnrAk63PxX6CJYSEfBY2AN88aWvozhwEF1udir0ESwh
+      dwY80pGFYVCZDI1GQzAUTIE6gqXkzoBHOrLQAEIerHYfJUXFKVBHsJTcHvCYTLU6KSFKPUCY
+      WescwaDoAZY7CwMe8xz6zZusaGyj+8RhqurrCOpLCLq9bNuYDvUACh0FudoUqCJYaqQCHm67
+      h9H+drQFK+g5e56//eErNK1ZnR71AJevXKa2aR0lhfmp0EewhEgFPEoryvDK1Mxdv0rDlg2s
+      fnoVZ0+eZu+jO5Z/PUC2LoN//Pt/oH7LLv7wxWdToZNgqZAIeGzatnP+h4ce+uTgyuW5KMIC
+      F6iyegXrN2+jskT0AMseEfCIMghWZfHCC58nEp7/KvRc7qR3xIpO4aaythWTaUDsE7xsEAGP
+      BT3AtfYP+f4P/p53PjwNQG1tHT6vF6/TyY2xG2Kf4OWECHgsNIDGlmY0Kh0VpfPd4ru/epui
+      8jJKyypQKpQ89dU/wTtxVSTDLQNuBjwqSgpTrUrKWOgCKfQU5WZgczgBePqF31lqnQRLRLY6
+      wquv/ZKm1vV89QtPpVqdlBAlFUJBfn4+ozeGl14bwZJSuaqRNU2NFObnpFqVlBFlJjjCkXd/
+      xcanxJd/2XNHwCMdWWgAQSfVzdsJuCwpUEewlFxr/5C3T/dT39jE5/fuTLU6KWGBC/TRpRG+
+      8rmHKS+rSIU+giXkzoBHOrKgBzDNTNPSshrz9CVgTQpUEiwZdwQ8Fotv/7v/QL/JHlPGN2vi
+      vbd+vqh6RGOBAex8aANnPjrPrl27l1wZwRLz6YDHtg2Ldpt+kx1z3b6YMqPvv7po94/FAhco
+      O6+ER3fvIlurToU+giVlPuBhKChPtSIpQ+wPkM5IBDxCvjm6+6eZG+9hZWMjIW0RTtMEzc0N
+      KVJ08RD7A6QxUgGPzs4OBq+dwBvUcHL/b/iv/+MHlNSslGjlwSZuD9BzuROzW45R5UVlLCfs
+      dxDyB2luWX7VQemGVMDDZrMyZQ2gGr1AaVU5e+rbOHLsNHseWrf8C2LupKG5ldd/8UucWj2y
+      cRunjr7GYy99dwlUEyw2UgGPx/a+wGMS1yy3gpi4LtD+n/4YWXYxbuc0fqWahg2PMNh1GpfI
+      Bn3gEQGPBHqA577y9Y9/2r7gnMgGFTzo3FdRoM4b1qjHszKU1BaJhboEyee+MoBv/uxc1OOt
+      lbn88MubllgbQTogwqCCtEYYgCCtua9coER4+eT1qMdLDFr2taTvIq+Ce+OBM4BXJAygtTJX
+      GIDgrhEukCCteeB6gETY9t/ei3pcRJMEdyJ6AEFaIwxAkNbEdYGmhvv4zdmr6COzrN30GF3n
+      D4p9gpc5w/1XySpagXlskMqqMnyyTPwOK4VFRalWLenE7QGKq+sw6uSUFZZy4WKn2Cc4DYiE
+      g7x/6E2uXexi/2s/5+XX3sTqTbVWi0NCg+DG+nrc1mlWl6xkbVOd2Cd4mZOZW4wycBrQA+B1
+      2ZmxzFFi1KRfPQDMGwDUL7IqgvsF1+wMj+x7Ccv40C0XyGs3YzAYll09wLIMgwo+GyvqmgDI
+      N8z/VwugK5G+4AFGRIEEaY0wAEFaIwxAkNak7RhApEsIQPQAgjRHGIAgrREGIEhrhAEI0pq4
+      g2DLxBCnr45hiNhR5VQS8FvSYp9ghzdA/7Qj6rkSg5YSQ3pvL7pciGsA2fllBNzduFAj84xx
+      5N2XefKP/+pWMlx+/vLcUb5/2iG5TMvXtq/iD7avWmKNBItBXBdIpVaTn5eHThvCUFou9gkW
+      LCsSmgd4eNu2xdZDIEgJaTsRJpDm7MkP8cm0WAauUFVfR1BfQtDtZdvG5bckvogCCRZQW12F
+      3zmFtmAFPWfP87c/fIWmNaux2WzLrh5AGIDgDiLs//W7lNU04ZkZomHLBv7tt7/J2ZOnMRgM
+      6HS6VCuYVIQLJLgDGV/7+jcAWF1b98nhlaVLpoHT62dwajamTJExkyKj/jPfS/QAgrRGGIAg
+      rUmKC2T+8N2ox21rVoFILRbcx4geQJDWCAMQpDUJu0DD/VfxybPINWiIhMLLcpUwQeJEQsE4
+      5xVLpMlnI2EDOHXqODv3vcgbP/shqzbsY89dGoB7qD/qca+qDHgwxwnpnDEa8nhing8/IL5F
+      wgawbsMOzhw/jMfrwTJtvutsUPdQ9I0tfFmJanD/ITJGH3wSNoAsjZztu55AsXMn4WBQZIMK
+      lgUJG0DlqsbF1EMgSAkPiKcmECwOIhdokblhdfLP7YNRz21bWcS2VSKalkruKwMIzFqiHg/m
+      fKLmgzbrbHb62X9hIuq5vEzdfWkAtskBzOQzeukYKxsbCWmLcJomaG5uSLVqUbE6Pcw6Y0el
+      SnOz0KpVC47fVwZguxA9ouIKrQIeW1pl0pjJwW6G5KXIghpO7v8NR0adfO+730m1WpIEgiFc
+      3tjLtofCkVs/W50eAsEQcJ8ZwFKSSG+TrlRVVTI0pWW09wilVeXsqW/jyLHT7Hlo3bIoiJl1
+      em4ZzLL8ayfiJoneRhpt+XqeLAc2LIz8LbcNMkQUSJDWJNwDvPnaT1DlVOC2DaTFLpEhhx1b
+      50dRz/lWagAxy7scSNgAMrOKIOjno3NnePj5P1tMne4LwsEAgTlr1HMh73zEIRIISI4lwp7E
+      Swj7TXb+9oOeqOf2tZSxr6Us4bYEd0fCBlBamo06p4LK2m/jc3sJL6ZWDwhBp11yLOFtzgXW
+      EJi1SI5J3GV7YfsqHL4gF25EN7bWylwAOm9Y4+YdxUvOWxgEFCRsAC3rt972+6f3CX7xyQ23
+      jgcCAVSq+UddVpTL5OQkKpXqgZPRKCOSMitLc5Iqo/R4eLIoHFWmTO6a1zkQ5NkGY1SZSl2Y
+      yclJzO4gh7vHo8qsr8ylPl+D4HZkkUgkEl8sOmazOW42qJB5sGTicbONzsvRs3tvos/UUrdi
+      3nV77mt/grluX0z50fdf5cb7rwJ3vyqEac6Jac4VU76mOAe9Rg3AwJT1Vhj0M0WB7nyYs6ZR
+      Dh06xNj03H0h4zBPcvzYMSwu/z20EyEUCnPs4AHmvPOTJhfOHuONdw5HbWeo9xInP+q6zTW8
+      U2ag5xIH33sfT+j+kBEkeR6gt6eP8cFLZBbUUV5oTLnM1avdXOg4T0Z2BXmtNXfVztVzR/n7
+      V99gXWMDhhYf60p1tHd2Ud20MWo7Pb0XOXO0l6a2dUjNpd0Y6eXE4ctseewxpEplllJmqfDN
+      mhj9+OsuhW3w0hJpcztJNYCs7Gyeff6LTJhlUc97bNPIMjLJK62jqiznnttJVKawsJC8wnKK
+      inLvWp/Vm3byN23bOX3iNE3F86uhVRTmMDxmitpWrrGQlevU6GL0qdl51Xz5xQqkNB4b7Edn
+      KGHTI5moJYSSJbOUvP7qP9I/NB5TpqQw+t9osUnaRFgkHEav13L06BmMedFfbq2hEFUkgNV8
+      g4mx6OHDRNpJRAbAbJpCpZJx8N2Dt7kCiekjwzQ6jMfnxe6ed6HyCvOwu6InXZlMMwScZj48
+      1R71fCgUQhb0cHlkBq1EuWx5TS1Br53u0+fwSIzMEpWxzUzg9/u59xFeepA0A/A5rbR3dqPM
+      0CGLSBdMV6+ooiS/CFVW9DUmE2kn0Xtp9VkoZAoe2rFD8qWLpc/VwRv0tX+AyTVvPTNjQ0R0
+      0d2t7KxMlBlZbN8a3UUyjY7QNzSMTqMiGCOGXFhQQk1zXcyQZSIyKlUGskiEsDCABUQCAcJ+
+      H2G/L3kG4Hc5UWSoGbsxgsvjiyrjtozyk18cYNqtYF1tcVQZTXY+a1aV0n72DHOe6HknidwL
+      IBIBjTaT3LzoL208fbINRn77xS+jUsz7EZoMLXK/N/rN5EpyCoskDa20uoYsmY/2rquS+vZ2
+      nuDIuQsYCqrJknBOE5EBsM4M8uHBU0g/nTiEHPzDX/0lv/7lT/npb45x/Fz3vbZ03xEOBgn7
+      /YT9/uQZQFZhKcasbEry9JIvpS6vgq88/xRZGTA+bZNsa9bloyAvE5fVfs/3AlAqFYRQEAlF
+      N6RY+oTDIbIVYY519lGgVxMKBjH7M8jXRG9LLpejkEUIxPi6y3UaIlYrXomvcv367ezctBav
+      0xzVZUtUBmBl3QYa21ZjvNfZr6CDyoZW7BNmzpw4QWlF5T02dH+TtEGwZ87ExSt95BWW0NpQ
+      ISknl0EoFCYUln5TCguLqF7VQkVF9LBdovfS6TLxu/oYn5qlvDBKAX8khMMTYvuOhwiFbtdn
+      bmaSoZk5DEYj4VCQ4eEeRq5fwywrjH4vrZaenl68YSR7gfy8MjbuLkArMTAN+n0oNEY2thol
+      ffeJ4X6Gxy3os/SSg2mASdMw0/2D2INIRqViklGCWt7O9uf2sVVXyuxoP5Ssu4eG7oFwmLA/
+      dt8VCX0yqRf2+wk6o8+AfyKfHfV40nqARL7uXruZf/rZ6+iyslEppRdOGh8bRSaTEZZwYBO5
+      l8/lIBCOoNbq0Kgl3gCZjPZjB/nxj3+E9Y7nnVtUTq4qyI3xqU9eRo2RAsPC2VSHwwEyGXp9
+      FooYb+XY6CgyQMotDwc8HDz4Hj96+VUUEo+nqKKGTJmbnoGRmP79qoaNfOX3v4juntenkrFr
+      73NUVNZSnZ9Ja+s6bDYbNpsNs9mMSh6+7R8h322/R4I+zGYzk5OTOGxzceW9HtctefvcLIqg
+      97Z/YY/jtt89Tvv87LfZjNfjitm2Sh7GYZu7JR8JfnI+qWHQeF/3DL2BPEMWsxYTc3MuSvOj
+      W2VGRgaRGK5NIvea6b2E2QNtjz/FWOc1oDxaKzQ0r0FtGMPrcAC3R5RmnQFwjTEyF0SLis3r
+      VmMJZCxo5cqlS4Cah9eswB6AbImnqs7IkHz5AdSZOTRUGMjMKMAbgowo7SgUSvT5RWgvjRIr
+      M980NsT4pIPy1S1kJGmRNoPBQCAQID8/P+FJtZszx6WlJUmXvymb6PzeJ/KfXJC0HiCRr7tM
+      rmJ96xpUchkyVXTnNBIJIVOosc/NEgpJO7kd7R/FvFd2SQl9AwOcOHAAY4n0w8zKzsLlcKLN
+      XrjZwsryPIZmIlTnqmhsaGTSNI0+c2G0yJipnL/XlRuSL3/A60CjNzBrtsT8cmdl5+IhEDN+
+      f2NwiKqWJjIkZG70XWLC4iKs0iTt5b9JtBc/5HOw/603Od/dF18+EuTnP3mFN974OT2DC+dU
+      orXfe6mdN954G3cwtuyFs8c5cOAAHZf7cFimOHTwPQ4d/hC7x79A/vq1S5w+fTp5BnDn110K
+      Q04OGq0Gvyd6NMUzO8Wo2YHL7aMwT3rhrfUbNhMK+AkGoxtJdkkNX/2dL7Nn926qy6U/EYFA
+      GIMxE69joc79wxNs3biWyMdvrEGjiDoR1rBuMy9+8QX2PPk4mRIGMDrYjy8cIqLMlBwjAKiz
+      c1DMWfFLGIl7bor+oQkmRscISMhMTk2zfdceyjLBsQQFXJaBLiY9CrQZ6riyHruViEqLRpOJ
+      Xp9Yct75jg6ys7ORx5nUm5iaZM5kYWhkCG8Y5KEAPo+D3v7hBbKrGpuI+N3JMwCZXEVJSSE5
+      eUUYjZmScnOzVnw+P3J59Fvrcsv4rWef5g9+90u43dKV/tf7B5gZ62F0UjqadPTQO7R3dGK1
+      S7cTDHhxONxE88zdHvdtR2NNhO1/4zU6Oy9KRoFqVq9n3xNP8+wTWyVlPjpzBtDw5K71ki+u
+      zlhMc30lekM2Una0eccuxnouUNK8kZwlyIE2lK9CG5z/aMVDayhka1szHqeV8TgJbzepXbmC
+      SZMFWRwDyDVko9Blsu+JxykoKMA0bcLuCTE7cSOKdASfN4nzAAAbN21kzjpLZhQ34SY5uXkx
+      Y/MA1690sP+dd3HGqPSPRAIUVTWzokJ6Cl2tUuH3+yUH0wC5OUYsFjuG3Nv1CQd9FOQXMTU9
+      RSgUpv3UEVau38Oq4uj7UqmUyvmZV8k7wZmjB3n/2BlCEkKygIMTJ0/y/kfdZMT4y6g1OjQa
+      jeQLEUFG25bN9F+8JNlLJJOgx4NWb8Dvi700yU0UCgVyhRqjIbE9vvzBMFpFhGCc/xezdZbs
+      7CxkMhkgQ6dWYsgrZM8Tjy6QHezpovvaYHIN4HJ3N3lGFVeujUY975zso390kqEbE8yYoqdC
+      eGzTHD5yGlVGBuGQdKi0oKCAqdFB5j6V6XknK2pqsM/OIfWmRMJhrl3rYVVj04IB58zECHZ/
+      hKBMQ44+g0gkzJnjHzDnjm6UVRVlONzeGHk+1+jo7kOlVEgayaaHH+cb3/wmv/fH/5KChWPt
+      W8giPsYGRiTdpFOH3uJP//Q7DA0N44wxV5AcQgyOmvBYx3El6G5dv95P75ULTCTQAwz3XGZ0
+      agareQZfjP+XscF+9Dn5OK0zzCfvhrA5Peg0GR8bxO1cvdKLxTSSxHkA2zQ2Lwz2DvJY8yNR
+      ZZQZGnqvDbPrkS0oJXoJbXYumRkKAj5vzDyWUFhOQWEOfgmXBGBwYIgMpZvrA1OUFyyMOPkc
+      M/SNTJFtyMRkmr0tKlVUWcczlXV4HFbcviCbtj9KMBhEqYz+yMamJ5i4PIb7858jmmebm5tD
+      OBzG4/HH7cpjEgmhz84nqLRLjje2P/55tux8gpPnLmNc9HU/FJRly/nprIxipzmhKza0bcET
+      iNDQEH9yrbSijOkD+5l2yGIO6OXyCF3nTjJkVfOcYt5F1irDWGzRx6OrVq9BqdQkrwdQaXT4
+      PU7WbH2UWolMT01uJV//+u/T3NxKQ1Ve9IZkSh55ZAeRoIcZq/Tkhts5hy+oIidXohuNBBns
+      u8rhox3k5EUPt2oMBWiCc5w+fR6V7vakYcvkCO+88w4fHDtN8GMXSurld89N0d11jT6zFalh
+      oM5YzIryAvRZmTEnsOJx9viHVDZuZF11LnapL65MxsjQID6X8+Ov4eKiL6misUiHoTCx2uX2
+      82eZNI3Sd3U4rqw6M4c1a+qQuXwxXaCiiho2ta1n1YoyIhFYVbuKoCITv206aqCkobERuSYr
+      eQYQ8vsw5hUS9towz8auzomHQiFn1uaiMD/6OMFjm6Z3eBJVhgaFxGAamZLtu5/k93/3SxTm
+      RjcAkPP4M1/gqce3Mjd7+4JPeSVVGPUq+i91YLkz/nYHOmMxz73wFb7w9C40Mb5SWZlazKbp
+      uL5sLCoqyjl19H0mvQqyYwxw5+sBTki6Sckk4Haj1RsJBhLLPKoor0SvN1JYJD0O/DSlJdWs
+      2bw2ZvLfrfkRt/Pj+REZo31dXB+doHcwmkuuZKK/M4lh0Kw8duzYQbYyhD/82ZLQBwcGqVtZ
+      yuh49EJxraGQhppyxgauMTkjHQVy2GcxTU0xNSXdNft9buacISrLFvZIan0+a9g4tOkAAAdk
+      SURBVNY0YdDGD6WYBi8wOenEJfHF9bpdhGUKQnIl6s/w1MtqGvncc8/ywheelvRfP6kH2LwE
+      9QAhPrpwlamRPtTaxAa1CpWCosKiBeknUpzv6MBoNMYMg549cRSdPp+dz+77uCYjhD63HG1E
+      aowYJOgJJ88AbCMX+Po3/w2dvQMMDU59prbqG5vo6h5m/bpqSRmtLgulSo4xygTWTZRKBR63
+      K6bP7fH4yMrS4XItXPIv6LTgDiuJhOP7EZFImJGxMck8B6fNimlykrGp6UXP0U+kZiB5KGhr
+      LKOodj1jQ/0xc7xgfsK0b2icK1cHKIoyLruTscF+qmvrcTqdMVciCQX9zM7OMjs7+7Gcira2
+      tbRu3UF9zcJ8saGBEZ756teSZwCGqlZ+9IO/Zm1DPa3rVtxzO9b+c3T3X2dFcwtd5xfOLN6U
+      GZ2ZobiuFdPYdFQZr92CzRMCmZrC4ugTYQGHCWdYjdU8R0bG7WGXsM9B56WrjI+N4Q/F/4zW
+      tGxlbUM5agkXyDzez5gtwta2NXHbSgYOixldebnkbHEyiSj1qCNevM5ZTFZnTFmVRodWk4E+
+      U4vPH9u1hHljJujh2rlOySxagG27HmfTpk1s2rTh4xByiCvt7Vy9PoIySrbA2WOHePnll5OY
+      CxQJ8sZPf4JCl0nWuJmGmntb9ttYWc/sxeNsWFOCpqj6nmUy9AZsUyOYLHP4/X5gYdTJbZ3m
+      xNFjbN+9A7PFRk3ZJz6pPCOLqrJi1Fm56OO8RR+dOYNGo6GttgyLD8qjFOE2bNhNw4bdMdtJ
+      Jhl6LZahgc803kgUrV7PueOH2PHs70nmd91Eodbx8M7dPHwX7Wdn59HyyPa4Ea1jh37JtWtm
+      vvSvv45BKadoRTVyY/SB+Ze+9sdAMmuCZUo2btrMlGUGg+Hed76TZxh44flnEpLpaG+nrS76
+      dLrbOoFTbmBTWxVaic+yoaqFb32r5bb1cz5NfnYGB46foWXLzpj6yAIOTpw/j16p4qmmbTFl
+      l4KxwWu4AtolGgMEMFl9fOvP/xNz1pm40i7LBP/rf79CVVUpFQ072LGhNu41fVfa6elzs23P
+      Y+TFeGMzMnR4kKEI+UEpw2K1UVkcu/2kToQlMuhMFl0fHWVouJ9L16IXW8sUGWTr1URkSvS6
+      2Dkn0V5+AHdYTZbag9UVu6tOdAJrqSivaUQbttJ1oQf/oi/hF6S35yod5y4wPj4ZVzozr5SX
+      Xvwt3O4QNTWJhU2Li8vJKi1AF8eYR0YnyVMFePWNdzh79DCTVge916IvOXmTpE6TRCJhJkZH
+      KV/kjUQ8tmkuXu7D4/dRG2XXDwBdThFP7Hn8nu8R8jmobmglJ6+IxmLp1I77lcrGjTg93ZJj
+      kuSh5PqVLmxhNU8884WErhgaGiFbH6G/b4yyLXVx5W+mf/sjxFziZftDD3FlxEzL6joK83Ox
+      OzzIDNHS4D8hqT1AUXE5LevWkJdgjse9ojUUsufRnVSV5WOeTiyh6m7p/Og8eaUl1BgDnB+J
+      PbC7H7nccQ4ytMQJyiQBFS+99CLlFZUcPvA6I1OxK7MA6muruXB5lBU10evC78Rpm2V6xkK8
+      WNzZU++y/6dvo84tpOtCB9rMLGZM0ZexuUnSDGCs6wwTFht1Wx5memQ4Wc1KYrfb6R+cZv26
+      lYvS/vrNGzjxm/2cuO5hQ9XiGnSycc9NMWlxfva0iwSJRCKoM7S0rmvCMRe9jvvT9PYNsHnr
+      ZqSzom4nkUGwe26KkekIuiwZKhlkaxT0XB9mVV19zLaTNxGm03Dm1Enee3s/ct3ivjDW/nOM
+      ma1UNbVwpSv2GpX3iiIji2ee+xzP7N0ds8zxfkRnLGZt0woGLnbHDB0mC4VSRSjgI6ekluaG
+      +H69x3N32yz1XWmn+3QnszGGYjpjMU/sfYI9e3ahU8DE+AQyGZgtZlxO6R48aWOAgrpWvlHX
+      mqzmYpJIGDTdGe3vIZKbtyTzAD6nDXdIhkoiV+pOdJl63O7ELDPgdZCZW0Fx5WzUJMNPYxq8
+      wOS0GlcIGppbCCp0RCI+nP4IUhUqSR0EX+k8w8UrV1ndtod1qxdvGY1EQqXpTsuGbTjPdC3B
+      PECI0RkXLtMwvsDahK5o3bCJQx8cIxCIPxE2OthPWKlApTXGrKQDkKsyieBADhSVraCoLP6E
+      bFJrgjs6Ojj8/jFCyvsgFpjm5OQYySkoWIJdEOWUGmUU12/ENDYcV9ptGeV//vD/EFJlsyJK
+      /tWdJFJJB/eea5U0Awj6vQTlGnbufpTcrPi1oYLFo7fzOK+9c5j8oirJmoHkEebK4BTdp94j
+      II9f46vLq+A//vu/oK40m7EYi6PdibGgKGY9gM0yRU//DVauqJBedyYKSXs8+vxyVq+qxOZy
+      Mj1jZ0WJ9KK1gsWlfv3DrGrZxOkTZ/CEpBfqSg4K1tZWcGXKz8qqBPdFk8loaduSVC28Hjfh
+      SASz2SJZchqNpBmAyzJBR3cvOm0GxbXCBUo1CpWGHbt3Lcm9/D4Pwbt56xaBqroWvlHXctfX
+      /X+FD+T4Je7TAgAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Story 1' width='192'>
+      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
+      q1Xyj4usLZR3dN0tegCBD/7ybaLpyFNTRoBQRCeSDBNJ9XbZm80ugihw7fuXqKzUeOvPrtJt
+      dbEtl8Zag+t/cpl2vUMk2TMfavk6Q6czDJ/LkcjGSI4lANDDGo7tgtd78imajGZo/Ph//T5r
+      C2ViQ1Ec22X26wXGLo3s6Ob2QyQZ5lt/9Q6aoaJHdKAncs/2yEymUDSFqTfGCUV1oukI6aaJ
+      Zmi8/ePrtOsdrI6N1bF5+8+vo+kqkiLh2C71YgM1pHLxo7OceWfyuagKb//4GtF0hNzpDLVi
+      A83QkBSR6kqND/7qHZxjCCvZD1ESuPTdc1RX6wxNpamu1ojnYsiKzNBkikgyjKzJ+L7P+KVh
+      1JCK7/cCFFimjR7W8H2wOtuPIyRJIpI0mLw2htWx0MMa1Xyd5GgCQeiZ4RNXRzFiIUqLFVKj
+      CTpNc0dm2ZZ7glcfFWiUmoycy/HNP91naCrN3M1FsqcyFOfKXPzo7Ma54bixoeZ1wYyc620p
+      jGdjG+c9Oy4YvzL6/I0+CSEyfnmE8ctPG/mzDT45HOcocGyHB189Jj2WYPzy8/WM557eT6vW
+      xnU8cqeHnn7+zP2+SOLJd1OjPeGL1tM/QWmpQnmpyuT1MWq3l4gNRVmbLzNyIcfi3WUuf/f8
+      gdzbQWGbDqIk8uiLWS5+dBb5yYb2Fx9QkWQYs9Vl5WGeiSujxLfY+L4ZnudhNruIkkgiF+f+
+      Z48YmkxRXqqgqDKu5zF1rWcarrev2FD/6HLPsmVNTr81ydd/dwc9rLE2X8axHLptiwefPSZ7
+      Kr2rm3jVMJtdKstVWpUWi3dXUEMKsiJTWa2RHEnQbfdCDFZXagydShPPxjj91uS+ypy8OsaN
+      n94kdybDwp1lxi+PsrZQov7CBMRJwHM88o+LtGtt4tkYD373mHatA76PIIqohoogQKvSJpbp
+      TSJoEY25m4ucfe/UrsoSJYmxyyPkZ4o4XQfP9Zj/ZolENsbs1wuceWdqz/fRdwzg+z6/+Pf/
+      wPDZIVzHQ1IkXMfDsVwUTWZ1unDiXHoPmokro7z7F28Qium0qh3KK1U6DZPCbJHZr+bpNExG
+      Lw7juR6N0v7HJb/+j58Rz0YxWxahqE59rUEkFcFzPCrLFbrtw5123A2e57O+87+6WmP5wSrz
+      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
+      4ZXDuAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
